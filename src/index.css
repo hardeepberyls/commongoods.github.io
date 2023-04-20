@@ -123,8 +123,7 @@ body {
 .sub_item_2 {
   display: flex;
   justify-content: space-around;
-  padding: 3rem 0rem;
-  margin: 8rem 0rem;
+  padding: 1rem 0rem 1rem;
 }
 .skyler_image {
   background-color: #006979;
@@ -159,4 +158,19 @@ body {
   color: #222222;
   font-family: "Escalator_UG-Regular";
   letter-spacing: 2px;
+}
+.img_content {
+  border: 1px solid #222222;
+  padding: 10px;
+}
+.img_content a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #222222;
+  text-decoration: none;
+}
+.img_content:hover {
+  background-color: #99d6ea;
+  border: none;
 }

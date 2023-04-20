@@ -1,4 +1,5 @@
 import React from "react";
+import FourCol from "./FourCol";
 import ImageText from "./ImageText";
 
 function Main_nav() {
@@ -97,88 +98,7 @@ function Main_nav() {
           buttonName="Find mom's gift"
         />
 
-        <div className="col-md-10 mx-auto sub_item_2">
-          <div className="col-md-3">
-            <div className="col-md-12">
-              <img
-                src="#"
-                className="img-fluid"
-                alt=""
-                style={{ width: "268px" }}
-              />
-            </div>
-            <div className="col-md-12 img_content">
-              <p>Joy delivered month after month</p>
-            </div>
-            <div className="col-md-12 subs_butn">
-              <div className="col-md-9 subscription_btn">
-                <button type="button" className="btn btn-secondary">
-                  shop subscriptions
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3">
-            <div className="col-md-12">
-              <img
-                src="#"
-                className="img-fluid"
-                alt=""
-                style={{ width: "268px" }}
-              />
-            </div>
-            <div className="col-md-12 img_content">
-              <p>Ready-to-give treasure troves</p>
-            </div>
-            <div className="col-md-12 subs_butn">
-              <div className="col-md-9 subscription_btn">
-                <button type="button" className="btn btn-secondary">
-                  shop gift sets
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3">
-            <div className="col-md-12">
-              <img
-                src="#"
-                className="img-fluid"
-                alt=""
-                style={{ width: "268px" }}
-              />
-            </div>
-            <div className="col-md-12 img_content">
-              <p>Even better than apple picking</p>
-            </div>
-            <div className="col-md-12 subs_butn">
-              <div className="col-md-9 subscription_btn">
-                <button type="button" className="btn btn-secondary">
-                  shop uncommon experiences
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3">
-            <div className="col-md-12">
-              <img
-                src="#"
-                className="img-fluid"
-                alt=""
-                style={{ width: "268px" }}
-              />
-            </div>
-            <div className="col-md-12 img_content">
-              <p>OMGGGGG the newness</p>
-            </div>
-            <div className="col-md-12 subs_butn">
-              <div className="col-md-9 subscription_btn">
-                <button type="button" className="btn btn-secondary">
-                  shop new
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <FourCol/>
         <div className="col-md-12">
           <div className="col-md-12 down_section_1">
             <div className="col-md-8 skyler_image">
